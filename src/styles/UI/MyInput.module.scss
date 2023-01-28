@@ -1,0 +1,16 @@
+.InputWrapper {
+  margin-top: 22px;
+  label {
+    font-weight: 500;
+    font-size: 12px;
+    color: #8494a1;
+    mix-blend-mode: normal;
+  }
+  input {
+    display: block;
+    height: 36px;
+    border: none;
+    border-bottom: 1px solid #82949f;
+    width: 100%;
+  }
+}
