@@ -36,7 +36,7 @@ const WherePage: React.FC = () => {
           name="city"
           label="Ближайший к месту город"
           value={city}
-          onChange={(event: any) => setCity(event.originalEvent.select)}
+          onChange={(event: any) => setCity(event.target.value)}
         />
         <MyMap address={address} getData={getData} />
       </div>
